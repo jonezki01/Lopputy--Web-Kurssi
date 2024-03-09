@@ -1,0 +1,49 @@
+.some-text {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.some-text p {
+    color: #DEE8EA;
+    font-size: 1.2em;
+}
+
+#logo {
+    color: #DEE8EA;
+}
+
+#logo span {
+    color: #01C9FB;
+}
+
+.games {
+    display: flex;
+    gap: 56px;
+    justify-content: center;
+    align-items: center;
+}
+
+.games p {
+    color: #DEE8EA;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.tictactoe {
+    width: 200px;
+    height: 200px;
+    margin-top: -16px;
+    cursor: pointer;
+}
+
+.tictactoe:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+@media (max-width: 768px) {
+    .games {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

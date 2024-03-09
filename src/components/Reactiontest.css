@@ -1,0 +1,46 @@
+.reaction-game {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    color: #DEE8EA;
+    margin-top: 50px;
+}
+
+.title span {
+    color: #01C9FB;
+}
+
+.reaction-box {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 50vh;
+    width: 50vw;
+    cursor: pointer;
+}
+
+.display-text {
+    padding: 24px;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 32px;
+    color: #000;
+    font-family: 'Madimi One', sans-serif;
+}
+
+.reset-game {
+    margin-top: 12px;
+    padding: 12px 24px;
+    font-size: 32px;
+    border: 2px solid #000000;
+    border-radius: 12px;
+    color: #000000;
+    background-color: #42cc8c;
+    cursor: pointer;
+}

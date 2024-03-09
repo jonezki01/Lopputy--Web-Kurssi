@@ -1,0 +1,71 @@
+.paita-peli {
+    text-align: center;
+    align-items: center;
+}
+
+#title {
+    color: #DEE8EA;
+}
+
+#title span {
+    color: #01C9FB;
+}
+
+.sakarikuva1 {
+    width: 30%;
+    position: absolute;
+    left: 5rem;
+    top: 10rem;
+    cursor: pointer;
+}
+
+.sakarikuva2 {
+    width: 13%;
+    position: absolute;
+    left: 14rem;
+    top: 10rem;
+    cursor: pointer;
+}
+
+.sakarikuva3 {
+    width: 30%;
+    position: absolute;
+    right: 15rem;
+    top: 15rem;
+    cursor: pointer;
+}
+
+.peli-ilmoitus {
+    font-family: 'Schoolbell', arial, serif;
+    font-size: 32px;
+    color: #DEE8EA;
+}
+
+.painikkeet {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.painikkeet button {
+    font-size: 32px;
+    border: 2px solid #000000;
+    border-radius: 12px;
+    color: #000000;
+    background-color: #42cc8c;
+    cursor: pointer;
+}
+
+.painikkeet button:hover {
+    border-color: #ffffff;
+    transition: .2s;
+}
+
+#pukeminen {
+    padding: 10px 33px;
+}
+
+#en-pue {
+    padding: 10px 20px;
+}
