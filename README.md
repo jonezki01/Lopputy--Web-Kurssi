@@ -1,8 +1,7 @@
-# React + Vite
+# Joonan Pelit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tein nettisivun missä on 3 erilaista pientä peliä.
 
-Currently, two official plugins are available:
+Peli 1.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](./src/assets/ristinollapeli.png)
